@@ -27,4 +27,5 @@ SELECT name, club, Round(age) FROM players WHERE 1
 
 -- Opdracht 10
 
-SELECT SUM(wage) FROM players WHERE club="Luverpool"
+SELECT SUM(wage), club, Round(avg(value),2) FROM players WHERE club="Liverpool"
+
